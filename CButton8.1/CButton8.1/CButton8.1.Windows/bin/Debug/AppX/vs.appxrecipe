@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>V-XUNWU</Machine>
+    <WindowsUser>v-xunwu</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>bfa07f33-b52a-4050-8e51-9caa4f04ca66</PackageIdentityName>
+    <IntermediateOutputPath>D:\Customer%27s\CButton8.1\CButton8.1\CButton8.1.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>AB9C0BEA83B4F8BA9B5AEB415FBC9461AFF9B9E6324C34C8117D2596C53D92D9</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>bfa07f33-b52a-4050-8e51-9caa4f04ca66_1.0.0.0_neutral__75cr2b68sm664</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>bfa07f33-b52a-4050-8e51-9caa4f04ca66_75cr2b68sm664!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>bfa07f33-b52a-4050-8e51-9caa4f04ca66</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Administrator</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Customer%27s\CButton8.1\CButton8.1\CButton8.1.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-18T02:27:49.282</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Customer%27s\CButton8.1\CButton8.1\CButton8.1.Windows\bin\Debug\CButton8.1.Windows.exe">
+      <PackagePath>CButton8.1.Windows.exe</PackagePath>
+      <Modified>2016-06-16T02:04:37.457</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CButton8.1\CButton8.1\CButton8.1.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CButton8.1\CButton8.1\CButton8.1.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CButton8.1\CButton8.1\CButton8.1.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CButton8.1\CButton8.1\CButton8.1.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CButton8.1\CButton8.1\CButton8.1.Windows\bin\Debug\CButton8.1.Windows.xr.xml">
+      <PackagePath>CButton8.1.Windows.xr.xml</PackagePath>
+      <Modified>2016-06-16T02:04:37.171</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CButton8.1\CButton8.1\CButton8.1.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-03-18T02:27:48.728</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CButton8.1\CButton8.1\CButton8.1.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-06-16T02:04:37.364</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CButton8.1\CButton8.1\CButton8.1.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-03-18T02:27:49.050</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

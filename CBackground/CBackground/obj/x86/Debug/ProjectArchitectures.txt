@@ -1,0 +1,2 @@
+D:\Customer's\CBackground\BackgroundTask\BackgroundTask.csproj;x86
+D:\Customer's\CBackground\CBackground\CBackground.csproj;x86

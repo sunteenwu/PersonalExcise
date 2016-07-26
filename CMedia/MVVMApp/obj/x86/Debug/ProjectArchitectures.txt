@@ -1,0 +1,1 @@
+D:\Customer's\CMedia\MVVMApp\MVVMApp.csproj;x86

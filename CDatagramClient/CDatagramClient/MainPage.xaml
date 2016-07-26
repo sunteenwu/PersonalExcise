@@ -1,0 +1,14 @@
+﻿<Page
+    x:Class="CDatagramClient.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CDatagramClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Padding="30">
+        <Button x:Name="BtnConnect" Content="Connect" Click='BtnConnect_Click'></Button>
+        <Button x:Name="BtnReceive" Click="BtnReceive_Click" Content="receivetest"></Button>
+    </StackPanel>
+</Page>

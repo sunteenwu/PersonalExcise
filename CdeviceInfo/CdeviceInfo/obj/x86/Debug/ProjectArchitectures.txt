@@ -1,0 +1,1 @@
+D:\Customer's\CdeviceInfo\CdeviceInfo\CdeviceInfo.csproj;x86

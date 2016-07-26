@@ -1,0 +1,1 @@
+D:\Customer's\CDataPicker\CDataPicker\CDataPicker.csproj;x86

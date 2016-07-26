@@ -1,0 +1,2 @@
+MainPackage=D:\Customer's\CStorageFile\CStorageFile\bin\x86\Release\CStorageFile_1.0.14.0_x86.appx
+SymbolPackage=D:\Customer's\CStorageFile\CStorageFile\AppPackages\CStorageFile_1.0.14.0_Test\CStorageFile_1.0.14.0_x86.appxsym

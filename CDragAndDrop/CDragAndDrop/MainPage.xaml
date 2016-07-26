@@ -1,0 +1,62 @@
+﻿<Page x:Class="CDragAndDrop.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:CDragAndDrop"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions> 
+        <!--<Canvas x:Name="cnvDrop" AllowDrop="True" DragOver="cnvDrop_DragOver" Drop="cnvDrop_Drop"
+Background="LightBlue" Grid.Row="2" >
+            
+            --><!--<Image x:Name="imgDrag" HorizontalAlignment="Left" Height="68" VerticalAlignment="Top" Width="64" CanDrag="True" Source="Assets\cafee2.jpg" DragStarting="imgDrag_DragStarting" Canvas.Left="12" Canvas.Top="16" Stretch="Fill"/>--><!--
+            <Border Background="Pink"
+                            BorderBrush="Gray"
+                            BorderThickness="2"
+                            CornerRadius="10">
+                <TextBlock Text="Sunteen" DragStarting="TextBlock_DragStarting" CanDrag="True" />
+            </Border>
+        </Canvas>-->
+        <ListView x:Name="SourceListView"
+                  Header="SourceListView"
+                  Grid.Row="2"
+                  Margin="8,4"
+                  CanDragItems="True"
+                  DragItemsStarting="SourceListView_DragItemsStarting"
+                  SelectionMode="Extended">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Border Background="Pink"
+                            BorderBrush="Gray"
+                            BorderThickness="2"
+                            CornerRadius="10">
+                        <TextBlock Text="{Binding text}"  CanDrag="True"  />
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <ListView x:Name="TargetListView"
+                  Header="target listview"
+                    Grid.Row="2" Grid.Column="1" Margin="8,4"
+                    AllowDrop="True" CanReorderItems="True" CanDragItems="True"
+                    DragOver="TargetListView_DragOver"
+                    Drop="TargetListView_Drop"
+                    DragItemsStarting="TargetListView_DragItemsStarting"
+                    DragItemsCompleted="TargetListView_DragItemsCompleted"
+                    />
+    </Grid>
+</Page>

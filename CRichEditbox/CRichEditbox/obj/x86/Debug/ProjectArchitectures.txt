@@ -1,0 +1,1 @@
+D:\Customer's\CRichEditbox\CRichEditbox\CRichEditbox.csproj;x86

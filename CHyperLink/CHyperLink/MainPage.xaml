@@ -1,0 +1,61 @@
+﻿<Page x:Class="CHyperLink.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:CHyperLink"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer>   
+            <!--<HyperlinkButton Content="Common_sense_media" NavigateUri="{Binding Common_sense_media}" />-->
+            <ListView Name="list"
+                      Width="500"
+                      Height="1000"
+                      DataContext="{Binding}">
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel HorizontalAlignment="Stretch"
+                                    VerticalAlignment="Stretch"
+                                    BorderBrush="Blue"
+                                    BorderThickness="1">
+                            <!--<Image Width="100"
+                               Height="100"
+                               Source="{Binding Poster}" />-->
+                            <TextBlock Name="id" Text="{Binding Id}" />
+                            <TextBlock Name="title" Text="{Binding Title}" />
+                            <!--<TextBlock Name="release_year" Text="{Binding Release_year}" />
+                        <TextBlock Name="themoviedb" Text="{Binding Themoviedb}" />
+                        <TextBlock Name="original_title" Text="{Binding Original_title}" />
+                        <TextBlock Name="alternate_titles" Text="{Binding Alternate_titles}" />
+                        <TextBlock Name="imdb" Text="{Binding Imdb}" />
+                        <TextBlock Name="pre_order" Text="{Binding Pre_order}" />
+                        <TextBlock Name="in_theaters" Text="{Binding In_theaters}" />
+                        <TextBlock Name="release_date" Text="{Binding Release_date}" />-->
+                            <HyperlinkButton Content="{Binding Common_sense_media}" NavigateUri="{Binding Common_sense_media}" />
+                            <HyperlinkButton Content="{Binding Metacritic}" NavigateUri="{Binding Metacritic}" />
+                            <!--<WebView Source="{Binding Metacritic}" Height="100" Width="100"></WebView>-->
+                            <!--<MediaElement Source="http://www.metacritic.com/movie/the-hobbit-the-battle-of-the-five-armies" Height="100" Width="100"></MediaElement>-->
+                            <!--<TextBlock Name="rating" Text="{Binding Rating}" />
+                        <TextBlock Name="rottentomatoes" Text="{Binding Rottentomatoes}" />
+                        <TextBlock Name="freebase" Text="{Binding Freebase}" />
+                        <TextBlock Name="wikipedia_id" Text="{Binding Wikipedia_id}" />
+
+                        <TextBlock Name="common_sense_media" Text="{Binding Common_sense_media}" />
+                        <TextBlock Name="poster_120x171" Text="{Binding Poster_120x171}" />
+                        <Image Width="100"
+                               Height="100"
+                               Source="{Binding Poster_240x342}" />
+                        <Image Width="100"
+                               Height="100"
+                               Source="{Binding Poster_400x570}" />-->
+
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+        </ScrollViewer>
+    </StackPanel>
+</Page>

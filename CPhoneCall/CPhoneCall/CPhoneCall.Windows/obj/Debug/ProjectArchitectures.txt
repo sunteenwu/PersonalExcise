@@ -1,0 +1,1 @@
+D:\Customer's\CPhoneCall\CPhoneCall\CPhoneCall.Windows\CPhoneCall.Windows.csproj;neutral

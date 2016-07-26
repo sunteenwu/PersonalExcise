@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="CShowUI.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CShowUI"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="RegistBackground" Click="RegistBackground_Click"  Content="RegistBackground" Margin="30"></Button>
+        <TextBlock x:Name="Txtshow"></TextBlock>
+        <Button x:Name="CancelBckground" Click="CancelBckground_Click"  Content="CancelBackground" Margin="30"></Button>
+
+        <Button x:Name="InsertDataDirect"  Click="InsertDirectData_Click"  Content="InsertDirectly"></Button>
+
+        <Button x:Name="testsocket" Click="testsocket_Click"></Button>
+    </StackPanel>
+</Page>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>V-XUNWU</Machine>
+    <WindowsUser>v-xunwu</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>821dac72-dd54-4309-a29c-aa73aaf20831</PackageIdentityName>
+    <IntermediateOutputPath>D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\bin\Debug\CompuSight.Metro.Samples.HttpClient.exe">
+      <PackagePath>CompuSight.Metro.Samples.HttpClient.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\Assets\CompuSight.png">
+      <PackagePath>Assets\CompuSight.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\bin\Debug\CompuSight.Metro.Samples.HttpClient.xr.xml">
+      <PackagePath>CompuSight.Metro.Samples.HttpClient.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

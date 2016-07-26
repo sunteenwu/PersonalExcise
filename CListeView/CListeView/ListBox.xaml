@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="CListeView.ListBox"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CListeView"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+        <ListBox x:Name="list"  Height="140" SelectionChanged="list_SelectionChanged">
+            <ListBoxItem Content="Item1"/>
+            <ListBoxItem Content="Item2"/>
+            <ListBoxItem Content="Item3"/>
+            <ListBoxItem Content="Item4"/>
+            <ListBoxItem Content="Item5"/>
+            <ListBoxItem Content="Item6"/>
+            <ListBoxItem Content="Item7"/>
+            <ListBoxItem Content="Item8"/>
+            <ListBoxItem Content="Itemn"/>
+        </ListBox>
+        <Button x:Name="GetScrollview" Click="GetScrollview_Click" Content="getscroll"></Button>
+    </StackPanel>
+</Page>

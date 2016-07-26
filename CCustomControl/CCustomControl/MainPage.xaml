@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="CCustomControl.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CCustomControl"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+      <local:TokenAuto></local:TokenAuto> 
+        <FlipView>
+            <FlipView.Items>
+            
+                <FlipViewItem>
+                    <local:PhotoView >
+                      
+                        <Image Source="ms-appx:///Assets/caffe.jpg"></Image>
+                    </local:PhotoView>
+                </FlipViewItem>     
+        </FlipView.Items>
+    </FlipView>
+        
+    </Grid>
+</Page>

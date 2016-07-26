@@ -1,0 +1,35 @@
+﻿<Page
+    x:Class="CNotification.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CNotification"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+
+        <Style x:Key="ImageButtonStyle" TargetType="Button">
+            <Setter Property="Margin" Value="0,0,0,24"/>
+            <Setter Property="ContentTemplate">
+                <Setter.Value>
+                    <DataTemplate>
+                        <Image Source="Assets/caffe.jpg" Stretch="None"/>
+                    </DataTemplate>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Content" Value="Assets/caffe.jpg"/>
+        </Style>
+
+    </Page.Resources>
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Padding="50">
+        <Button x:Name="Toast" Click="Toast_Click" Content="notification"></Button>
+        <!--<Button x:Name="Tile" Click="Tile_Click" Content="tile"></Button>-->
+        <Button
+                    x:Name="ButtonCirclePeek"
+                   Style="{StaticResource ImageButtonStyle}"
+                    Content="Assets/caffe.png"
+                    Click="ButtonCirclePeek_Click"
+                    RightTapped="ButtonCirclePeek_RightTapped"
+                    Tag="Circle peek"/>
+    </StackPanel>
+</Page>

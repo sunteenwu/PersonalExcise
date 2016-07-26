@@ -1,0 +1,1 @@
+D:\Customer's\CEntityFrameRc\CEntityFrameRc\CEntityFrameRc.csproj;x86

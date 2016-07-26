@@ -1,0 +1,11 @@
+[Files]
+"D:\Customer's\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\AppxManifest.xml" "AppxManifest.xml"
+"D:\Customer's\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\CListView8.1.Windows.exe" "CListView8.1.Windows.exe"
+"D:\Customer's\CListView8.1\CListView8.1\CListView8.1.Windows\Assets\Logo.scale-100.png" "Assets\Logo.scale-100.png"
+"D:\Customer's\CListView8.1\CListView8.1\CListView8.1.Windows\Assets\SmallLogo.scale-100.png" "Assets\SmallLogo.scale-100.png"
+"D:\Customer's\CListView8.1\CListView8.1\CListView8.1.Windows\Assets\SplashScreen.scale-100.png" "Assets\SplashScreen.scale-100.png"
+"D:\Customer's\CListView8.1\CListView8.1\CListView8.1.Windows\Assets\StoreLogo.scale-100.png" "Assets\StoreLogo.scale-100.png"
+"D:\Customer's\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\CListView8.1.Windows.xr.xml" "CListView8.1.Windows.xr.xml"
+"D:\Customer's\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\App.xbf" "App.xbf"
+"D:\Customer's\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\MainPage.xbf" "MainPage.xbf"
+"D:\Customer's\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\resources.pri" "resources.pri"

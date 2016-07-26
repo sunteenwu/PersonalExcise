@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="Cflyout.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Cflyout"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="btnflyout" Click="btnflyout_Click" Content="testflyout">
+            <Button.Flyout>
+                <MenuFlyout Opened="MenuFlyout_Opened">
+                    <MenuFlyoutItem Text="Item1" Click="MenuFlyoutItem_Click"></MenuFlyoutItem>
+                    <MenuFlyoutItem Text="Item2" Click="MenuFlyoutItem_Click"></MenuFlyoutItem>
+                </MenuFlyout>
+            </Button.Flyout>
+        </Button>
+        <TextBox Name="txtTest" Margin="5" RightTapped="TextBox_RightTapped" >           
+            <FlyoutBase.AttachedFlyout>
+                <MenuFlyout Placement="Right" >
+                    <MenuFlyoutItem Text="Strength"></MenuFlyoutItem>
+                </MenuFlyout>
+            </FlyoutBase.AttachedFlyout>
+        </TextBox>
+    </StackPanel>
+</Page>

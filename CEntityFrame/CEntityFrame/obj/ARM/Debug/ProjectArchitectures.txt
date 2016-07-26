@@ -1,0 +1,1 @@
+D:\Customer's\CEntityFrame\CEntityFrame\CEntityFrame.csproj;arm

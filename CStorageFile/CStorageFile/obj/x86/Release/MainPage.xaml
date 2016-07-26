@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="CStorageFile.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CStorageFile"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:ConnectionId='1' x:Name="CreateFile"                          Content="CreateFile"></Button>
+        <TextBox x:ConnectionId='2' x:Name="txtpicpath" Header="Package.Current.InstalledLocation path" ></TextBox>
+        <Button x:ConnectionId='3' x:Name="picture"                       Content="Picture test"></Button>
+        <TextBox x:ConnectionId='4' x:Name="txtpicpath2" Header="PStorageFile.GetFileFromApplicationUriAsync path" ></TextBox>
+        <Button x:ConnectionId='5' x:Name="picture2"                        Content="Picture2 test"></Button>
+
+        <Button x:ConnectionId='6' x:Name="Futurelist"                          Content="Add folder to future list"></Button>
+        <Button x:ConnectionId='7' x:Name="getfolder"                         Content="get folder from future list"></Button>
+
+        <Button x:ConnectionId='8' x:Name="SaveToAsserts"                             Content="Save file to asserts"></Button>
+    </StackPanel>
+</Page>
+

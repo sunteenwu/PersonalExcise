@@ -1,0 +1,16 @@
+﻿[ResourceMetadata]
+"ResourceDimensions"		"language-en-us"
+
+[Files]
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\filemap.pri"			"resources.pri"
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\PackageLayout\CStorageFile.exe"			"CStorageFile.exe"
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\PackageLayout\CStorageFile.dll"			"CStorageFile.dll"
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\PackageLayout\ClrCompression.dll"			"ClrCompression.dll"
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\PackageLayout\ApplicationInsights.config"			"ApplicationInsights.config"
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\PackageLayout\Assets\foo.png"			"Assets\foo.png"
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\PackageLayout\Assets\620300.png"			"Assets\620300.png"
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\PackageLayout\Assets\5050.png"			"Assets\5050.png"
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\PackageLayout\Assets\44.png"			"Assets\44.png"
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\PackageLayout\Assets\300300.png"			"Assets\300300.png"
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\PackageLayout\Assets\150.png"			"Assets\150.png"
+"D:\Customer's\CStorageFile\CStorageFile\obj\x64\Release\PackageLayout\Assets\1240.png"			"Assets\1240.png"

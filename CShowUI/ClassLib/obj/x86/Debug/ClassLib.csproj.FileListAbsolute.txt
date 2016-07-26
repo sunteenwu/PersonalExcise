@@ -1,0 +1,17 @@
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\ClassLib.csprojResolveAssemblyReference.cache
+D:\Customer's\CShowUI\ClassLib\bin\x86\Debug\ClassLib.dll
+D:\Customer's\CShowUI\ClassLib\bin\x86\Debug\ClassLib.pdb
+D:\Customer's\CShowUI\ClassLib\bin\x86\Debug\ClassLib.pri
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\ClassLib.dll
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\ClassLib.pdb
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\priconfig.xml
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\priconfig.xml.intermediate
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\layout.resfiles
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\layout.resfiles.intermediate
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\resources.resfiles
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\resources.resfiles.intermediate
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\pri.resfiles
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\pri.resfiles.intermediate
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\qualifiers.txt
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\qualifiers.txt.intermediate
+D:\Customer's\CShowUI\ClassLib\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt

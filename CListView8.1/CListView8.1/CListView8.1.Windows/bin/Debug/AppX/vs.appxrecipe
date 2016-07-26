@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>V-XUNWU</Machine>
+    <WindowsUser>v-xunwu</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>dee83fd4-3865-4afa-8fa5-0e1f7c2482c4</PackageIdentityName>
+    <IntermediateOutputPath>D:\Customer%27s\CListView8.1\CListView8.1\CListView8.1.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>300C49424A99A4F79EB8C613CD4FE05EAC3931F2E3CB13845D146E1440E7E805</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>dee83fd4-3865-4afa-8fa5-0e1f7c2482c4_1.0.0.0_neutral__1096e6a2etsa4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>dee83fd4-3865-4afa-8fa5-0e1f7c2482c4_1096e6a2etsa4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>dee83fd4-3865-4afa-8fa5-0e1f7c2482c4</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=v-xunwu</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Customer%27s\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-06T04:10:39.681</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Customer%27s\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\CListView8.1.Windows.exe">
+      <PackagePath>CListView8.1.Windows.exe</PackagePath>
+      <Modified>2016-06-06T04:10:39.046</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CListView8.1\CListView8.1\CListView8.1.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CListView8.1\CListView8.1\CListView8.1.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CListView8.1\CListView8.1\CListView8.1.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CListView8.1\CListView8.1\CListView8.1.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\CListView8.1.Windows.xr.xml">
+      <PackagePath>CListView8.1.Windows.xr.xml</PackagePath>
+      <Modified>2016-06-06T04:10:38.786</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-06-06T04:10:38.962</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-06-06T04:10:38.964</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CListView8.1\CListView8.1\CListView8.1.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-06-06T04:10:39.434</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

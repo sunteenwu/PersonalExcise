@@ -1,0 +1,1 @@
+D:\Customer's\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient\CompuSight.Metro.Samples.HttpClient.csproj;neutral

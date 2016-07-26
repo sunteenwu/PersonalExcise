@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PriInfo>
+	<ResourceMap name="29e3989d-f4ef-4e08-b2a7-ed2c6211d278" version="1.0" primary="true">
+		<Qualifiers/>
+		<ResourceMapSubtree name="Files">
+			<NamedResource name="App.xbf" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/App.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="ApplicationInsights.config" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/ApplicationInsights.config">
+				<Candidate type="Path">
+					<Value>ApplicationInsights.config</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="CStorageFile.xr.xml" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/CStorageFile.xr.xml">
+				<Candidate type="Path">
+					<Value>CStorageFile.xr.xml</Value>
+				</Candidate>
+			</NamedResource>
+			<NamedResource name="MainPage.xbf" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/MainPage.xbf">
+				<Candidate type="EmbeddedData">
+					<Base64Value>[Embedded Binary Data]</Base64Value>
+				</Candidate>
+			</NamedResource>
+			<ResourceMapSubtree name="Assets">
+				<NamedResource name="1240.png" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/Assets/1240.png">
+					<Candidate type="Path">
+						<Value>Assets\1240.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="150.png" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/Assets/150.png">
+					<Candidate type="Path">
+						<Value>Assets\150.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="300300.png" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/Assets/300300.png">
+					<Candidate type="Path">
+						<Value>Assets\300300.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="44.png" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/Assets/44.png">
+					<Candidate type="Path">
+						<Value>Assets\44.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="5050.png" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/Assets/5050.png">
+					<Candidate type="Path">
+						<Value>Assets\5050.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="620300.png" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/Assets/620300.png">
+					<Candidate type="Path">
+						<Value>Assets\620300.png</Value>
+					</Candidate>
+				</NamedResource>
+				<NamedResource name="foo.png" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/Assets/foo.png">
+					<Candidate type="Path">
+						<Value>Assets\foo.png</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="Properties">
+				<NamedResource name="Default.rd.xml" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/Properties/Default.rd.xml">
+					<Candidate type="Path">
+						<Value>Properties\Default.rd.xml</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+			<ResourceMapSubtree name="WinMetadata">
+				<NamedResource name="Windows.winmd" uri="ms-resource://29e3989d-f4ef-4e08-b2a7-ed2c6211d278/Files/WinMetadata/Windows.winmd">
+					<Candidate type="Path">
+						<Value>WinMetadata\Windows.winmd</Value>
+					</Candidate>
+				</NamedResource>
+			</ResourceMapSubtree>
+		</ResourceMapSubtree>
+	</ResourceMap>
+</PriInfo>

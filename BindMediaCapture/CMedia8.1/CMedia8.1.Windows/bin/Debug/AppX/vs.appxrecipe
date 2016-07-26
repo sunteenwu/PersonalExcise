@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SUNTEEN-PC</Machine>
+    <WindowsUser>Administrator</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1f21d4e5-d01c-4d36-948e-876ee437da11</PackageIdentityName>
+    <IntermediateOutputPath>D:\Customer%27s\CMedia8.1\CMedia8.1\CMedia8.1.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>37DDBD36F005D990831C2AA48B17C320CF60FCA1550E096AF7BB79B2244975F6</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1f21d4e5-d01c-4d36-948e-876ee437da11_1.0.0.0_neutral__75cr2b68sm664</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1f21d4e5-d01c-4d36-948e-876ee437da11_75cr2b68sm664!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1f21d4e5-d01c-4d36-948e-876ee437da11</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Administrator</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Customer%27s\CMedia8.1\CMedia8.1\CMedia8.1.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-03-16T07:09:43.816</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Customer%27s\CMedia8.1\CMedia8.1\CMedia8.1.Windows\bin\Debug\CMedia8.1.Windows.exe">
+      <PackagePath>CMedia8.1.Windows.exe</PackagePath>
+      <Modified>2016-03-16T07:12:08.209</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CMedia8.1\CMedia8.1\CMedia8.1.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CMedia8.1\CMedia8.1\CMedia8.1.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CMedia8.1\CMedia8.1\CMedia8.1.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CMedia8.1\CMedia8.1\CMedia8.1.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CMedia8.1\CMedia8.1\CMedia8.1.Windows\bin\Debug\CMedia8.1.Windows.xr.xml">
+      <PackagePath>CMedia8.1.Windows.xr.xml</PackagePath>
+      <Modified>2016-03-16T07:11:18.608</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CMedia8.1\CMedia8.1\CMedia8.1.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-03-16T06:32:24.233</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CMedia8.1\CMedia8.1\CMedia8.1.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-03-16T07:11:18.614</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CMedia8.1\CMedia8.1\CMedia8.1.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-03-16T07:09:43.754</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="CButton8._1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CButton8._1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+    <ControlTemplate x:Key="myCanvasControlTemplate">
+        <Canvas x:Name="myCanvas" Background="LightYellow" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Height="100" Width="100">
+        </Canvas>
+    </ControlTemplate>
+        <Style x:Key="myNewButtonStyle" TargetType="Button">
+     
+        </Style>
+    
+    </Page.Resources>
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid Background="White">
+            <Grid Margin="5" VerticalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Button x:ConnectionId='1' Name="BtnGetOS" Content="Get os version" HorizontalAlignment="Stretch" Background="#FF34ACB8"                       />
+                <TextBlock Grid.Row="1" Name="TbckOSVersion" Text="Current Windows Device Version: 10.0.10586.11" FontWeight="Bold" FontSize="17" Foreground="Gray"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Page>
+

@@ -1,0 +1,43 @@
+﻿<Page
+    x:Class="C__ContentDialog.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:C__ContentDialog"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Padding="30">
+        <ContentDialog x:ConnectionId='1' x:Name="termsOfUseContentDialog" 
+           PrimaryButtonText="accept" IsPrimaryButtonEnabled="True"
+           SecondaryButtonText="cancel"                                                                                                                                      >
+            <ContentDialog.TitleTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Source="ms-appx:///Assets/SmallLogo.png" Width="40" Height="40" Margin="10,0"/>
+                        <TextBlock Text="Terms of use" />
+                    </StackPanel>
+                </DataTemplate>
+            </ContentDialog.TitleTemplate>
+            <StackPanel>
+                <TextBlock TextWrapping="WrapWholeWords">
+        <Run>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor 
+             congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus 
+             malesuada libero, sit amet commodo magna eros quis urna.</Run><LineBreak/>
+        <Run>Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.</Run><LineBreak/>
+        <Run>Pellentesque habitant morbi tristique senectus et netus et malesuada fames 
+             ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.</Run><LineBreak/>
+        <Run>Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. 
+             Mauris eget neque at sem venenatis eleifend. Ut nonummy.</Run>
+                </TextBlock>
+                <CheckBox x:ConnectionId='6' x:Name="ConfirmAgeCheckBox" Content="I am over 13 years of age." 
+                                                                                           />
+            </StackPanel>
+        </ContentDialog>
+        <Button x:ConnectionId='2' x:Name="BtnShowContent" Content="show content dialog"                             ></Button>
+        <TextBlock x:ConnectionId='3' x:Name="txtshow"></TextBlock>
+        <TextBlock x:ConnectionId='4' x:Name="txtshow2"></TextBlock>
+        <TextBlock x:ConnectionId='5' x:Name="txtshow3"></TextBlock>
+    </StackPanel>
+</Page>
+

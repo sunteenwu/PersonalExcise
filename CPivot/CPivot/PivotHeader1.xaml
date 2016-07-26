@@ -1,0 +1,41 @@
+﻿<Page x:Class="CPivot.PivotHeader1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:CPivot"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Padding="50">
+        <Pivot x:Name="mainContentPivot"
+               Grid.Row="1"    >
+            <Pivot.HeaderTemplate>
+                <DataTemplate>                  
+                        <TextBlock FontSize="19" Text="header" />             
+                </DataTemplate>
+            </Pivot.HeaderTemplate> 
+            
+            <Pivot.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock FontSize="16" Text="content" />
+                    </StackPanel>
+                </DataTemplate>
+            </Pivot.ItemTemplate> 
+        </Pivot>
+        <Pivot  x:Name="simplepivot" >
+            
+ 
+            <PivotItem Header="test1">content</PivotItem>
+            <PivotItem >
+                <PivotItem.Header>                    
+                    <TextBlock FontSize="16" Text="test2" />
+                </PivotItem.Header>
+              content2
+            </PivotItem>
+            <PivotItem Header="test3">content3</PivotItem>
+        </Pivot>
+        <Button x:Name="HeaderManpulation" Click="HeaderManpulation_Click" Content="manpulation on pivot header item"></Button>
+                
+    </StackPanel>
+</Page>

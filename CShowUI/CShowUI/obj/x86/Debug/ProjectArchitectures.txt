@@ -1,0 +1,4 @@
+D:\Customer's\CShowUI\ClassLib\ClassLib.csproj;x86
+D:\Customer's\CShowUI\ClassLib\ClassLib.csproj;x86
+D:\Customer's\CShowUI\CShowUI\CShowUI.csproj;x86
+D:\Customer's\CShowUI\Mytask\Mytask.csproj;x86

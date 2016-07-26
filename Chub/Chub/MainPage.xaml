@@ -1,0 +1,66 @@
+﻿<Page
+    x:Class="Chub.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Chub"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Hub>
+            <HubSection MinWidth="600" Header="Latest">
+                <DataTemplate  >
+                    <GridView ItemsSource="{x:Bind recordings}" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" x:Name="RecordingGrid">
+                        <GridView.ItemTemplate>
+                            <DataTemplate x:DataType="local:Recording">
+                                <StackPanel>
+                                    <Image Source="{Binding ImageUri, Mode=TwoWay}" Height="100" Opacity="1" Stretch="Uniform"/>
+                                    <TextBlock Text="{x:Bind ArtistName}"/>
+                                    <TextBlock Text="{x:Bind CompositionName}"/>
+                                    <TextBlock Text="{x:Bind ReleaseDateTime}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </GridView.ItemTemplate>
+                    </GridView>
+                </DataTemplate>
+            </HubSection>
+        </Hub>
+        <!--<DataTemplate>
+                    <Grid>
+                        <TextBlock Text="The most recent news will be here." 
+                   Style="{ThemeResource BodyTextBlockStyle}" />
+                    </Grid>
+                </DataTemplate>-->
+
+        <!--<HubSection x:Name="Tech" Header="Tech" IsHeaderInteractive="True"  
+       MinWidth="250">
+                <HubSection.Background>
+                    <ImageBrush ImageSource="../Assets/images.jpg" />
+                </HubSection.Background>
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="Tech news goes here."
+                   Style="{ThemeResource BodyTextBlockStyle}" />
+                        <TextBlock Text="Click the header to go to the Tech page."
+                   Style="{ThemeResource BodyTextBlockStyle}" />
+                    </StackPanel>
+                </DataTemplate>
+            </HubSection>
+
+            <HubSection x:Name="Sports" Header="Sports" IsHeaderInteractive="True" 
+        MinWidth="250">
+                <DataTemplate>
+                    <StackPanel>
+                        <TextBlock Text="Sports news goes here."
+                   Style="{ThemeResource BodyTextBlockStyle}" />
+                        <TextBlock Text="Click the header to go to the Sports page." 
+                   Style="{ThemeResource BodyTextBlockStyle}" />
+                    </StackPanel>
+                </DataTemplate>
+            </HubSection>-->
+
+
+
+    </Grid>
+</Page>

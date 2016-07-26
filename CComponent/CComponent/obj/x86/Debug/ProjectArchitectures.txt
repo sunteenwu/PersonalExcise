@@ -1,0 +1,2 @@
+D:\Customer's\CComponent\CComponent\CComponent.csproj;x86
+D:\Customer's\CComponent\WindowsRuntimeComponent1\WindowsRuntimeComponent1.vcxproj;x86

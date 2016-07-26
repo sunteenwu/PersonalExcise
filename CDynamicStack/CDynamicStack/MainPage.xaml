@@ -1,0 +1,64 @@
+﻿<Page
+    x:Class="CDynamicStack.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CDynamicStack"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    <Page.Resources>
+        <DataTemplate x:Key="DeviceListViewTemplate">
+            <Style TargetType="ListViewItem">
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate >
+
+                            <Grid Margin="5">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <!--<Border Margin="5" >-->
+                                <VisualStateManager.VisualStateGroups>
+                                    <VisualStateGroup x:Name="PanelStates">
+                                        <VisualState x:Name="DeviceSelected">
+                                            <VisualState.Setters>
+                                                <Setter Target="stButtons.Visibility" Value="Visible"></Setter>
+                                            </VisualState.Setters>
+                                        </VisualState>
+                                        <VisualState x:Name="DeviceUnSelected">
+                                            <VisualState.Setters>
+                                                <Setter Target="stButtons.Visibility" Value="Collapsed"></Setter>
+                                            </VisualState.Setters>
+                                        </VisualState>
+                                    </VisualStateGroup>
+                                </VisualStateManager.VisualStateGroups>
+
+                                <StackPanel Name="DeviceLine" Loaded="DeviceLine_Loaded" >
+                                    <StackPanel Orientation="Horizontal">
+                                        <TextBlock Text="Name:" Margin="0,0,5,0" />
+                                        <TextBlock Text="Device Name" FontWeight="SemiBold" TextWrapping="WrapWholeWords" Margin="0,0,50,0"/>
+                                        <TextBlock Name="icon" Text="&#xE00B;" FontFamily="Segoe MDL2 Assets" Foreground="Green" AutomationProperties.Name="Favorite" />
+                                    </StackPanel>
+
+                                    <StackPanel Orientation="Horizontal" Name="stButtons" Visibility="Collapsed">
+                                        <HyperlinkButton x:Name="UnPair" Margin="0,0,10,0">UnPair</HyperlinkButton>
+                                        <HyperlinkButton x:Name="SendAlert" Margin="0,0,10,0">Send Alert</HyperlinkButton>
+                                        <HyperlinkButton x:Name="Rename" Margin="0,0,10,0">Rename</HyperlinkButton>
+                                    </StackPanel>
+                                </StackPanel>
+                                <!--</Border>-->
+                            </Grid>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+        </DataTemplate>
+    </Page.Resources>
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">        
+        
+     <ListView Name="deListView"  ItemTemplate="{StaticResource DeviceListViewTemplate}" ItemsSource="DeviceInformationDisplay" >
+ 
+     </ListView> 
+    </StackPanel>
+</Page>

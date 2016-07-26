@@ -1,0 +1,1 @@
+D:\Customer's\CShowUI\CColorApp\CColorApp.csproj;x86

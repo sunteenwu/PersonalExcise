@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="CMedia8._1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CMedia8._1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+  x:Name="thispage"> 
+      
+ 
+    <Grid>
+        <StackPanel x:Name="sp1">
+            <CaptureElement x:Name="myCaptureElement"         
+                    Width="320" Height="140"/>
+            <Button x:ConnectionId='1'                         >Click me to see a preview</Button>
+        </StackPanel>
+
+        <StackPanel>
+            <CaptureElement x:Name="myCaptureElementmvvm"   Source="{Binding MediaCapture}"  
+                    Width="320" Height="140"/>
+        </StackPanel>
+        <ContentControl HorizontalAlignment="Left"         
+                Width="320" Height="140" Content="{Binding CaptureElement}"/>
+    </Grid>
+</Page>
+

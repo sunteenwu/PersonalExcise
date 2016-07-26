@@ -1,0 +1,25 @@
+﻿<Page
+    x:Class="CDataPicker.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CDataPicker"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Padding="30">
+        <DatePicker x:Name="julianDatePicker" CalendarIdentifier="HijriCalendar" />
+        <CalendarDatePicker CalendarIdentifier="HijriCalendar">
+            <CalendarDatePicker.CalendarViewStyle>
+                <Style TargetType="CalendarView">
+                    <Setter Property="DayItemFontFamily" Value="Comic Sans MS" />
+                    <Setter Property="DayItemFontSize" Value="8" />
+                </Style>
+            </CalendarDatePicker.CalendarViewStyle>
+        </CalendarDatePicker>
+        <CalendarView x:Name="viewControl" CalendarIdentifier="HijriCalendar"></CalendarView>
+        <Button x:Name="Btnsystem" Click="Btnsystem_Click" Content="system namespace"></Button>
+        <TextBlock x:Name="txtshow"></TextBlock>
+        <StackPanel x:Name="SystemContain"></StackPanel>
+    </StackPanel>
+</Page>

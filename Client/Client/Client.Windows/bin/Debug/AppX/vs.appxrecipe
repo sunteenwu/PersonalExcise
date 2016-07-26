@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>V-XUNWU</Machine>
+    <WindowsUser>v-xunwu</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>97f1e023-e6f0-48f4-a57b-ac246928fe94</PackageIdentityName>
+    <IntermediateOutputPath>D:\Customer%27s\Client\Client\Client.Windows\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>82B12B855C83E0F117ED6ED4CC722F81B866B47EDA0961C1F6E34A32F75406BF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>97f1e023-e6f0-48f4-a57b-ac246928fe94_1.0.0.0_neutral__1096e6a2etsa4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>97f1e023-e6f0-48f4-a57b-ac246928fe94_1096e6a2etsa4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>97f1e023-e6f0-48f4-a57b-ac246928fe94</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=v-xunwu</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Customer%27s\Client\Client\Client.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-21T05:23:24.399</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Customer%27s\Client\Client\Client.Windows\bin\Debug\Client.Windows.exe">
+      <PackagePath>Client.Windows.exe</PackagePath>
+      <Modified>2016-04-21T05:23:24.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\Client\Client\Client.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\Client\Client\Client.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\Client\Client\Client.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\Client\Client\Client.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\Client\Client\Client.Windows\bin\Debug\Client.Windows.xr.xml">
+      <PackagePath>Client.Windows.xr.xml</PackagePath>
+      <Modified>2016-04-21T05:23:24.135</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\Client\Client\Client.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-04-21T05:23:24.185</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\Client\Client\Client.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-04-21T05:23:24.187</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\Client\Client\Client.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-04-21T05:23:24.283</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

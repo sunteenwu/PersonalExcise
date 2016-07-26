@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>V-XUNWU</Machine>
+    <WindowsUser>v-xunwu</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>1dbfa6ce-f0dc-4a10-91bc-90315ddfb7bb</PackageIdentityName>
+    <PackageIdentityPublisher>CN=v-xunwu</PackageIdentityPublisher>
+    <IntermediateOutputPath>D:\Customer%27s\CFile8.1\CFile8.1\CFile8.1.Windows\obj\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <RegisteredManifestChecksum>20D3840D583DB201B5884E6BEF6E400AD26458D2B39286AD551680A5FD10927B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>1dbfa6ce-f0dc-4a10-91bc-90315ddfb7bb_1.0.0.0_neutral__1096e6a2etsa4</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>1dbfa6ce-f0dc-4a10-91bc-90315ddfb7bb_1096e6a2etsa4!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>1dbfa6ce-f0dc-4a10-91bc-90315ddfb7bb</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=v-xunwu</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Customer%27s\CFile8.1\CFile8.1\CFile8.1.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-06-30T03:03:19.637</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Customer%27s\CFile8.1\CFile8.1\CFile8.1.Windows\bin\Debug\CFile8.1.Windows.exe">
+      <PackagePath>CFile8.1.Windows.exe</PackagePath>
+      <Modified>2016-06-30T03:19:46.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CFile8.1\CFile8.1\CFile8.1.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CFile8.1\CFile8.1\CFile8.1.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CFile8.1\CFile8.1\CFile8.1.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CFile8.1\CFile8.1\CFile8.1.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-07-06T14:01:10.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CFile8.1\CFile8.1\CFile8.1.Windows\bin\Debug\CFile8.1.Windows.xr.xml">
+      <PackagePath>CFile8.1.Windows.xr.xml</PackagePath>
+      <Modified>2016-06-30T03:03:18.822</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CFile8.1\CFile8.1\CFile8.1.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-06-30T03:03:18.944</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CFile8.1\CFile8.1\CFile8.1.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-06-30T03:03:18.946</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\CFile8.1\CFile8.1\CFile8.1.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-06-30T03:03:19.288</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

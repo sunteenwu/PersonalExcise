@@ -1,0 +1,8 @@
+/out:"D:\Customer's\CStorageFile\CStorageFile\obj\x86\Release\ilc\intermediate\SgGenerated\\"
+/int:"D:\Customer's\CStorageFile\CStorageFile\obj\x86\Release\ilc\intermediate\\"
+/ref:"D:\Customer's\CStorageFile\CStorageFile\obj\x86\Release\ilc\intermediate\PreMergeILTransformed\\"
+/ref:"D:\Customer's\CStorageFile\CStorageFile\obj\x86\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\x86\ilc\lib\Private\\"
+/ref:"D:\Customer's\CStorageFile\CStorageFile\obj\x86\Release\ilc\in\\"
+/ref:"D:\Customer's\CStorageFile\CStorageFile\obj\x86\Release\ilc\in\WinMetadata\\"
+/ca:System.Private.CoreLib

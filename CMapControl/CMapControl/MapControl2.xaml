@@ -1,0 +1,30 @@
+﻿<Page
+    x:Class="CMapControl.MapControl2"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CMapControl"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:map="using:Windows.UI.Xaml.Controls.Maps">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+            <Button x:Name="BtnPolyLine" Click="BtnPolyLine_Click" Content="Add polygon to the map"></Button>
+            <Button x:Name="BtnCamara" Click="BtnCamara_Click"  Content="Map camaratesting"></Button>
+            <map:MapControl x:Name="myMap"                  
+                    ZoomLevel="5" Height="500" Width="500">               
+                
+             
+                <!--<map:MapItemsControl x:Name="MapItems"  >
+                    <map:MapItemsControl.ItemTemplate>
+                        <DataTemplate>                      
+                                                               
+                        </DataTemplate>
+                    </map:MapItemsControl.ItemTemplate>
+                </map:MapItemsControl>-->
+            </map:MapControl>
+            
+        </StackPanel>
+    </Grid>
+</Page>

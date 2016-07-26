@@ -1,0 +1,8 @@
+﻿  pch.cpp
+  App.xaml.cpp
+  MainPage.xaml.cpp
+  XamlTypeInfo.Impl.g.cpp
+  XamlTypeInfo.g.cpp
+     Creating library D:\Customer's\CButton\Debug\CRelativePanel\CRelativePanel.lib and object D:\Customer's\CButton\Debug\CRelativePanel\CRelativePanel.exp
+  CRelativePanel.vcxproj -> D:\Customer's\CButton\Debug\CRelativePanel\CRelativePanel.exe
+  CRelativePanel.vcxproj -> D:\Customer's\CButton\Debug\CRelativePanel\CRelativePanel.pdb (Partial PDB)

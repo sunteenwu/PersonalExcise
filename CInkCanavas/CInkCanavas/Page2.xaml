@@ -1,0 +1,56 @@
+﻿<Page x:Class="CInkCanavas.Page2"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:CInkCanavas"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Padding="30">
+        <ScrollViewer>
+            <StackPanel>
+                <Button Click="ButtonBase_OnClick" Content="Navigate" />
+                <TextBlock Text="Sign 1" />
+                <InkCanvas x:Name="Ink1"
+                           Width="100"
+                           Height="100" />
+                <TextBlock Text="Sign 2" />
+                <InkCanvas x:Name="Ink2"
+                           Width="100"
+                           Height="100" />
+                <TextBlock Text="Sign3" />
+                <InkCanvas x:Name="Ink3"
+                           Width="100"
+                           Height="100" />
+                <TextBlock Text="Sign 4" />
+                <InkCanvas x:Name="Ink4"
+                           Width="100"
+                           Height="100" />
+                <TextBlock Text="Sign 5" />
+                <InkCanvas Width="100" Height="100" />
+                <TextBlock Text="Sign 6" />
+                <InkCanvas Width="100" Height="100" />
+                <TextBlock Text="Sign7" />
+                <InkCanvas Width="100" Height="100" />
+                <TextBlock Text="Sign 8" />
+                <InkCanvas Width="100" Height="100" />
+                <TextBlock Text="Sign9" />
+                <InkCanvas Width="100" Height="100" />
+                <TextBlock Text="Sign 10" />
+                <InkCanvas Width="100" Height="100" />
+                <TextBlock Text="Sign 11" />
+                <InkCanvas Width="100" Height="100" />
+                <TextBlock Text="Sign12" />
+                <InkCanvas Width="100" Height="100" />
+                <TextBlock Text="Sign 13" />
+                <InkCanvas Width="100" Height="100" />
+                <TextBlock Text="Sign 14" />
+                <InkCanvas Width="100" Height="100" />
+                <TextBlock Text="Sign 15" />
+                <InkCanvas Width="100" Height="100" />
+
+                <!--  Another 8 InkCanvases  -->
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

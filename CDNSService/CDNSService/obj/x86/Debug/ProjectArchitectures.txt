@@ -1,0 +1,1 @@
+D:\Customer's\CDNSService\CDNSService\CDNSService.csproj;x86

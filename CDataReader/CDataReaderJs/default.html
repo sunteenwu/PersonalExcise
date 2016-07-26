@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>CDataReaderJs</title>
+
+    <!-- WinJS references -->
+    <link href="WinJS/css/ui-dark.css" rel="stylesheet" />
+    <script src="WinJS/js/base.js"></script>
+    <script src="WinJS/js/ui.js"></script>
+    <script src="/js/default.js"></script>
+    <!-- CDataReaderJs references -->
+    <link href="/css/default.css" rel="stylesheet" />
+ <script type="text/javascript">
+     function btnOnclick() {
+         alert("hihi!");
+     }
+     var itemArray = [
+        { title: "Marvelous Mint", text: "Gelato", picture: "/images/fruits/60Mint.png" },
+        { title: "Succulent Strawberry", text: "Sorbet", picture: "/images/fruits/60Strawberry.png" },
+        { title: "Banana Blast", text: "Low-fat frozen yogurt", picture: "/images/fruits/60Banana.png" },
+        { title: "Lavish Lemon Ice", text: "Sorbet", picture: "/images/fruits/60Lemon.png" },
+        { title: "Creamy Orange", text: "Sorbet", picture: "/images/fruits/60Orange.png" },
+        { title: "Very Vanilla", text: "Ice Cream", picture: "/images/fruits/60Vanilla.png" },
+        { title: "Banana Blast", text: "Low-fat frozen yogurt", picture: "/images/fruits/60Banana.png" },
+        { title: "Lavish Lemon Ice", text: "Sorbet", picture: "/images/fruits/60Lemon.png" }
+     ];
+
+     var items = [];
+
+     // Generate 160 items
+     for (var i = 0; i < 20; i++) {
+         itemArray.forEach(function (item) {
+             items.push(item);
+         });
+     }
+
+
+     WinJS.Namespace.define("Sample.ListView", {
+         data: new WinJS.Binding.List(items)
+     });
+     WinJS.UI.processAll();
+     //// (preceding ms-stream response from XHRHttpRequest)
+     //function excute()
+     //{
+     //    const input = stream.msDetachStream() as Windows.Storage.Streams.IInputStream;
+     //    const reader = new Windows.Storage.Streams.DataReader(input);
+     //    reader.inputStreamOptions = Windows.Storage.Streams.InputStreamOptions.partial;
+
+     //    while (!canceled) {
+     //        const content = await consumeString(1000);
+     //        // ... some more codes
+     //    }
+     //}
+
+     //async function consumeString(count: number) {
+     //    await reader.loadAsync(count);
+     //    return reader.readString(reader.unconsumedBufferLength);
+     //}
+ </script>
+</head>
+<body class="win-type-body">
+    <p>Content goes here</p>
+    <div><input type="button" value="datareadertest"  onclick="btnOnclick();"/></div>
+    
+</body>
+</html>
