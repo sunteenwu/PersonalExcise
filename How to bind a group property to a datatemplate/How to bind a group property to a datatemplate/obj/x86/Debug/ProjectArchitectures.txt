@@ -1,0 +1,1 @@
+D:\Customer's\How to bind a group property to a datatemplate\How to bind a group property to a datatemplate\How to bind a group property to a datatemplate.csproj;x86

@@ -1,0 +1,32 @@
+﻿<Page
+    x:Class="CViewBox.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:CViewBox"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <ScrollViewer   RelativePanel.AlignLeftWithPanel="True" RelativePanel.AlignRightWithPanel="True" RelativePanel.AlignTopWithPanel="True">
+            <Viewbox StretchDirection="UpOnly" VerticalAlignment="Top"  >
+                <RelativePanel>
+                    <StackPanel>
+                        <TextBlock TextAlignment="Center" Margin="0,0,0,20" TextWrapping="Wrap" MaxWidth="400">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent mattis volutpat leo vitae tincidunt. Fusce gravida posuere nisi sit amet mollis. Sed elementum, tellus quis placerat egestas, lectus urna pharetra diam.
+                        </TextBlock>
+                        <TextBlock TextAlignment="Center" Margin="0,0,0,20" TextWrapping="Wrap" MaxWidth="400">
+                        Ut a ultricies sem. Nullam ac est nulla. Aliquam sit amet pulvinar ante, eget venenatis diam. Mauris id libero luctus, iaculis nibh at.
+                        </TextBlock>
+                        <TextBlock TextAlignment="Center" Margin="0,0,0,20" TextWrapping="Wrap" MaxWidth="400">
+                        Duis ut lacinia nisi. Cras at commodo leo. Praesent ac mauris feugiat, consectetur diam eget, auctor lectus. Ut elementum elit id urna vestibulum, venenatis viverra augue bibendum. Duis ac erat urna. Curabitur tristique urna augue.
+                        </TextBlock>
+                        <TextBlock TextAlignment="Center" Margin="0,0,0,20" TextWrapping="Wrap" MaxWidth="400">
+                        Duis ut lacinia nisi. Cras at commodo leo. Praesent ac mauris feugiat, consectetur diam eget, auctor lectus. Ut elementum elit id urna vestibulum, venenatis viverra augue bibendum. Duis ac erat urna. Curabitur tristique urna augue.
+                        </TextBlock>
+                    </StackPanel>
+                </RelativePanel>
+            </Viewbox>
+        </ScrollViewer>
+    </Grid>
+</Page>

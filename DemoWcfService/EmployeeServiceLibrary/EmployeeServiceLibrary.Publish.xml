@@ -1,0 +1,9 @@
+<publishData>
+  <publishTarget publishUrl="http://Employee/">
+    <file relUrl="bin/EmployeeServiceLibrary.dll.config" publishTime="03/31/2016 10:18:50" />
+    <file relUrl="EmployeeServiceLibrary.EmployeesService.svc" publishTime="03/31/2016 10:19:13" />
+    <file relUrl="bin/EmployeeServiceLibrary.dll" publishTime="03/31/2016 10:19:11" />
+    <file relUrl="bin/EmployeeServiceLibrary.pdb" publishTime="03/31/2016 10:19:11" />
+    <file relUrl="Web.config" publishTime="03/31/2016 10:18:50" />
+  </publishTarget>
+</publishData>

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-DAVE</Machine>
+    <WindowsUser>Dave</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <RegisteredManifestChecksum>E692D00722AF7F711118D18E7B3F4312A3453DD57460F391C08AE69C192DF665</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>14851259-e205-4d66-9935-351a6026b2ed_1.0.0.0_neutral__tbz3402trp7yy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>14851259-e205-4d66-9935-351a6026b2ed_tbz3402trp7yy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>14851259-e205-4d66-9935-351a6026b2ed</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Dave</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-10-02T16:16:48.349</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\HtmlRtfDemo.exe">
+      <PackagePath>HtmlRtfDemo.exe</PackagePath>
+      <Modified>2012-10-02T16:17:23.284</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\HtmlRtfDemo.pdb">
+      <PackagePath>HtmlRtfDemo.pdb</PackagePath>
+      <Modified>2012-10-02T16:17:23.257</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2012-03-15T18:42:52.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+      <Modified>2012-10-01T21:26:31.868</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+      <Modified>2012-06-26T14:19:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+      <Modified>2012-10-02T16:17:21.352</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2012-10-02T16:16:48.217</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

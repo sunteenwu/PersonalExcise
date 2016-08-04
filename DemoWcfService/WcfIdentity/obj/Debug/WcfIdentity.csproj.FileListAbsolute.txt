@@ -1,0 +1,6 @@
+D:\Customer's\DemoWcfService\WcfIdentity\bin\Debug\WcfIdentity.dll.config
+D:\Customer's\DemoWcfService\WcfIdentity\bin\Debug\WcfIdentity.dll
+D:\Customer's\DemoWcfService\WcfIdentity\bin\Debug\WcfIdentity.pdb
+D:\Customer's\DemoWcfService\WcfIdentity\obj\Debug\WcfIdentity.csprojResolveAssemblyReference.cache
+D:\Customer's\DemoWcfService\WcfIdentity\obj\Debug\WcfIdentity.dll
+D:\Customer's\DemoWcfService\WcfIdentity\obj\Debug\WcfIdentity.pdb

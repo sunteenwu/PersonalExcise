@@ -1,0 +1,5 @@
+"/t:System.ServiceModel.ExceptionDetail,System.ServiceModel.Primitives,dcs"
+"/t:System.String,System.Runtime,dcs"
+"/t:System.Int32,System.Runtime,dcs"
+"/t:Cwcf.ToDoService.CompositeType,Cwcf,dcs"
+"/t:System.Object,System.Runtime,dcs"

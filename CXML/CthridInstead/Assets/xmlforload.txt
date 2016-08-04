@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+  <head>
+    <title>Vertretungsplan online</title>
+    <meta http-equiv="content-type" content="text/html charset=utf-8"/>
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/cupertino/jquery-ui.css"/>
+    <link rel="stylesheet" href="css/ipvp.css"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="js/ipvp.js" type="text/javascript" language="JavaScript"></script>
+  
+    <script>
+      $(function() {
+        $("#prev").button({
+          text: false,
+          icons: {
+            primary: "ui-icon-arrowthick-1-w"
+            }
+          });
+        $("#next").button({
+          text: false,
+          icons: {
+            primary: "ui-icon-arrowthick-1-e"
+            }
+          });
+        $("#tage").buttonset();
+        });
+    
+      $(document).ready(function() {
+        SchulfreiEinlesen(ufrei);
+        $('input').click(function() {
+          s=$(this).val();
+          AnzeigeVplan(s);
+          });  
+          
+        AktDatum=StartDatum(12);
+        AktDatum=VorigesDatum(AktDatum);
+        AktDatum=NaechstesDatum(AktDatum);
+        AnzeigeTageAktualisieren();
+        AnzeigeVplan(1);
+        });     
+    
+      function KopfzeileErzeugen() {
+        var output='<p>Indiware Vertretungsplan online</p>';
+        document.writeln(output);
+        }
+
+      function SchaltflaechenErzeugen() {
+        var output='';
+        for (i=1;i<=MaxTage;i++) {
+          output+='<input type="radio" id="inputtag'+i+'" name="tag" value="'+i+'"/>';
+          output+='<label for="inputtag'+i+'"  id="labeltag'+i+'"></label>';
+          }
+        document.writeln(output);
+        }
+    </script>
+  </head>
+  <body class="ui-widget">
+
+    <header>
+      <div id="kopfzeile"  class="ui-widget-header">
+         <script>
+           KopfzeileErzeugen();
+         </script>
+      </div>
+      <nav>
+        <div id="toolbar" class="ui-widget-header ui-corner-all">
+          <button class="ui-widget-header" id="prev" onclick="AnzeigeVorigesDatum();">zurück</button>
+          <span id="tage">
+            <script>
+              SchaltflaechenErzeugen();
+            </script>
+          </span>
+          <button id="next" onclick="AnzeigeNaechstesDatum();">vorwärts</button>
+        </div>
+      </nav>
+      <span class="vpversion">Version 0.9.0</span>
+    </header>
+    
+    <div id="main">
+      <div id="keineDaten"></div>
+      <div id="vplan">
+        <div id="bereichkopf"></div>
+        <div id="bereichaufsichten"></div>
+        <div id="bereichaktionen"></div>
+        <div id="bereichklausuren"></div>
+        <div id="bereichinfo"></div>
+      </div>
+    </div>
+    
+    <footer class="ui-widget-header">
+      <a href="http://www.indiware.de">www.indiware.de</a>
+    </footer>
+
+  </body>
+</html>

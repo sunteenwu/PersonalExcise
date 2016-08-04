@@ -1,1 +1,0 @@
-D:\Customer's\CDataBinding\CDataBinding\CDataBinding.csproj;x86

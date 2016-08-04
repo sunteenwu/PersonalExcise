@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0-*",
+  "frameworks": {
+    "dnxcore50": {
+      "bin": {
+        "assembly": "../../lib/dnxcore50/System.Web.Cors.dll"
+      },
+      "dependencies": {
+        "mscorlib": "1.0.0-*"
+      }
+    }
+  }
+}

@@ -1,0 +1,1 @@
+D:\Customer's\Cuploadpicture\CuploadpictureClient\CuploadpictureClient.csproj;x86

@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="How_can_gridview_save_Image_to_list.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:How_can_gridview_save_Image_to_list"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="40" ></RowDefinition>
+        </Grid.RowDefinitions>
+        <GridView x:ConnectionId='1' Grid.Row="1"  Width="300" Name="gridv"  FlowDirection="RightToLeft" HorizontalAlignment="Center" VerticalAlignment="Top"  >
+            <GridView.ItemsPanel>
+                <ItemsPanelTemplate >
+                    <ItemsWrapGrid   Orientation="Horizontal"  >
+                    </ItemsWrapGrid>
+                </ItemsPanelTemplate>
+            </GridView.ItemsPanel>
+        </GridView>
+        <Button x:ConnectionId='2'  Content="add image to grid" Grid.Row="2"                     ></Button>
+        <Button x:ConnectionId='3'  Content="grid to list" Margin="100,0,0,0" Grid.Row="2"                      ></Button>
+    </Grid>
+</Page>
+

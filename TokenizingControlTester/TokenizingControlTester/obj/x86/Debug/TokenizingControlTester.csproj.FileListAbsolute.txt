@@ -1,0 +1,14 @@
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\bin\Debug\TokenizingControlTester.exe
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\bin\Debug\TokenizingControlTester.pdb
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\TokenizingControlTester.csprojResolveAssemblyReference.cache
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\MainWindow.g.cs
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\App.g.cs
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\TokenizingControlTester_MarkupCompile.cache
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\TokenizingControlTester_MarkupCompile.lref
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\MainWindow.baml
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\TokenizingControlTester.g.resources
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\TokenizingControlTester.Properties.Resources.resources
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\TokenizingControlTester.csproj.GenerateResource.Cache
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\TokenizingControlTester.exe
+D:\Customer's\TokenizingControlTester\TokenizingControlTester\obj\x86\Debug\TokenizingControlTester.pdb

@@ -1,0 +1,22 @@
+<tile>
+  <visual>
+
+    <binding template="TileSmall">
+      
+    </binding>
+
+    <binding template="TileMedium"> 
+                     <image  src="http://proxycache.app.iptv.telecom.pt:8080/MeoHandler/ImageProxy.ashx?width=200&url=1/5/55046d06-98e0-4aa3-be7d-f6996152b8ad_c_anatomia-16x9.jpg"  placement=""peek"" hint-overlay=""20""/>                
+                      </binding>   
+              </binding>
+
+    <binding template="TileWide">
+      
+    </binding>
+
+    <binding template="TileLarge">
+      
+    </binding>
+
+  </visual>
+</tile>

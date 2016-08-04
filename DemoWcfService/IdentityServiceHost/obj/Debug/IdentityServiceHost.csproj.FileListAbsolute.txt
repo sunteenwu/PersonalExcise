@@ -1,0 +1,8 @@
+D:\Customer's\DemoWcfService\IdentityServiceHost\bin\Debug\IdentityServiceHost.exe.config
+D:\Customer's\DemoWcfService\IdentityServiceHost\bin\Debug\IdentityServiceHost.exe
+D:\Customer's\DemoWcfService\IdentityServiceHost\bin\Debug\IdentityServiceHost.pdb
+D:\Customer's\DemoWcfService\IdentityServiceHost\bin\Debug\WcfIdentity.dll
+D:\Customer's\DemoWcfService\IdentityServiceHost\bin\Debug\WcfIdentity.pdb
+D:\Customer's\DemoWcfService\IdentityServiceHost\obj\Debug\IdentityServiceHost.csprojResolveAssemblyReference.cache
+D:\Customer's\DemoWcfService\IdentityServiceHost\obj\Debug\IdentityServiceHost.exe
+D:\Customer's\DemoWcfService\IdentityServiceHost\obj\Debug\IdentityServiceHost.pdb

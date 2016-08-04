@@ -1,0 +1,9 @@
+/out:"D:\Customer's\Cwcf\Cwcf\obj\ARM\Release\ilc\intermediate\SgGenerated\\"
+/int:"D:\Customer's\Cwcf\Cwcf\obj\ARM\Release\ilc\intermediate\\"
+/ref:"D:\Customer's\Cwcf\Cwcf\obj\ARM\Release\ilc\intermediate\PreMergeILTransformed\\"
+/ref:"D:\Customer's\Cwcf\Cwcf\obj\ARM\Release\ilc\in\\"
+/ref:"C:\Program Files (x86)\MSBuild\Microsoft\.NetNative\ARM\ilc\lib\Private\\"
+/ref:"D:\Customer's\Cwcf\Cwcf\obj\ARM\Release\ilc\in\\"
+/ref:"D:\Customer's\Cwcf\Cwcf\obj\ARM\Release\ilc\in\WinMetadata\\"
+/ca:System.Private.CoreLib
+"@D:\Customer's\Cwcf\Cwcf\obj\ARM\Release\ilc\intermediate\PreMergeILTransformed\ComputedSerializationInput.txt"

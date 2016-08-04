@@ -1,0 +1,8 @@
+D:\Customer's\CWinService\ConsoleTest\bin\Debug\ConsoleTest.exe.config
+D:\Customer's\CWinService\ConsoleTest\bin\Debug\ConsoleTest.exe
+D:\Customer's\CWinService\ConsoleTest\bin\Debug\ConsoleTest.pdb
+D:\Customer's\CWinService\ConsoleTest\bin\Debug\System.ServiceProcess.ServiceController.dll
+D:\Customer's\CWinService\ConsoleTest\obj\Debug\ConsoleTest.csprojResolveAssemblyReference.cache
+D:\Customer's\CWinService\ConsoleTest\obj\Debug\ConsoleTest.exe
+D:\Customer's\CWinService\ConsoleTest\obj\Debug\ConsoleTest.pdb
+D:\Customer's\CWinService\ConsoleTest\bin\Debug\Microsoft.Win32.Primitives.dll

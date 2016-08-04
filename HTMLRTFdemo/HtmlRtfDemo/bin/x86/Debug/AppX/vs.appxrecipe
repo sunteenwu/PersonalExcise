@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>V-XUNWU</Machine>
+    <WindowsUser>v-xunwu</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>14851259-e205-4d66-9935-351a6026b2ed</PackageIdentityName>
+    <IntermediateOutputPath>D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\obj\x86\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>F50E9386CA84A50219EA08D0C7C1EB97826A02B02269143609D034152B3AB47F</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>14851259-e205-4d66-9935-351a6026b2ed_1.1.0.0_x86__tbz3402trp7yy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>14851259-e205-4d66-9935-351a6026b2ed_tbz3402trp7yy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>14851259-e205-4d66-9935-351a6026b2ed</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Dave</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\bin\x86\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-05-09T06:07:04.047</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\bin\x86\Debug\HtmlRtfDemo.exe">
+      <PackagePath>HtmlRtfDemo.exe</PackagePath>
+      <Modified>2016-05-09T06:18:59.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T09:11:01.084</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T09:11:01.096</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T09:11:01.107</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T09:11:01.117</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\bin\x86\Debug\HtmlRtfDemo.xr.xml">
+      <PackagePath>HtmlRtfDemo.xr.xml</PackagePath>
+      <Modified>2016-05-09T06:07:03.343</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-05-09T06:07:03.535</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\bin\x86\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2016-05-09T06:07:03.537</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-05-09T06:07:03.541</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\HTMLRTFdemo\HtmlRtfDemo\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-05-09T06:07:03.768</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

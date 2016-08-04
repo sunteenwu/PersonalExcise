@@ -1,0 +1,6 @@
+D:\Customer's\DemoWcfService\EmployeeServiceLibrary\bin\Debug\EmployeeServiceLibrary.dll.config
+D:\Customer's\DemoWcfService\EmployeeServiceLibrary\bin\Debug\EmployeeServiceLibrary.dll
+D:\Customer's\DemoWcfService\EmployeeServiceLibrary\bin\Debug\EmployeeServiceLibrary.pdb
+D:\Customer's\DemoWcfService\EmployeeServiceLibrary\obj\Debug\EmployeeServiceLibrary.csprojResolveAssemblyReference.cache
+D:\Customer's\DemoWcfService\EmployeeServiceLibrary\obj\Debug\EmployeeServiceLibrary.dll
+D:\Customer's\DemoWcfService\EmployeeServiceLibrary\obj\Debug\EmployeeServiceLibrary.pdb

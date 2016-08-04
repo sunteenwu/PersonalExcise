@@ -1,0 +1,16 @@
+﻿<Page
+    x:Class="OneNoteServiceSamplesWinUniversal.SunTest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:OneNoteServiceSamplesWinUniversal"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button  x:Name="GetActoken" Content=" Get Ac token" Click="GetActoken_Click"  Margin="50"></Button>
+        <Button x:Name="GetUsername" Content="Get Username" Click="GetUsername_Click"></Button>
+        <TextBlock x:Name="txtShowToken" TextWrapping="Wrap"></TextBlock>
+        <TextBlock x:Name="txtDatetime"></TextBlock>
+    </StackPanel>
+</Page>

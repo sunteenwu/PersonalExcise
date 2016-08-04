@@ -1,0 +1,60 @@
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\HtmlRtfDemo.exe
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\HtmlRtfDemo.pdb
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\resources.pri
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\AppxManifest.xml
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\bin\Debug\HtmlRtfDemo.build.appxrecipe
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\App.g.i.cs
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\App.g.cs
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\Common\StandardStyles.g.i.cs
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\Common\StandardStyles.g.cs
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\MainPage.g.i.cs
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\MainPage.g.cs
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\XamlTypeInfo.g.cs
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\App.xaml
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\Common\StandardStyles.xaml
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\MainPage.xaml
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\HtmlRtfDemo.exe
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\HtmlRtfDemo.pdb
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\priconfig.xml
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\layout.resfiles
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\resources.resfiles
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\pri.resfiles
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\LanguageQualifiers.txt
+C:\Dave\Projects\Win8\HtmlRtfDemo\HtmlRtfDemo\obj\Debug\ProjectArchitectures.txt
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\App.xbf
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\Common\StandardStyles.xbf
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\MainPage.xbf
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\HtmlRtfDemo.xr.xml
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\HtmlRtfDemo.exe
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\HtmlRtfDemo.pdb
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\resources.pri
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\AppxManifest.xml
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\HtmlRtfDemo.build.appxrecipe
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\App.g.i.cs
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\App.g.cs
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\Common\StandardStyles.g.i.cs
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\Common\StandardStyles.g.cs
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\MainPage.g.i.cs
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\MainPage.g.cs
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\XamlTypeInfo.g.cs
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\App.xaml
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\Common\StandardStyles.xaml
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\MainPage.xaml
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\App.xbf
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\Common\StandardStyles.xbf
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\MainPage.xbf
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\XamlSaveStateFile.xml
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\HtmlRtfDemo.exe
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\HtmlRtfDemo.pdb
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\priconfig.xml
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\priconfig.xml.intermediate
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\layout.resfiles
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\layout.resfiles.intermediate
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\resources.resfiles
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\resources.resfiles.intermediate
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\pri.resfiles
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\pri.resfiles.intermediate
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\qualifiers.txt
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\qualifiers.txt.intermediate
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Customer's\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\ProjectArchitectures.txt

@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?><coreProperties xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.openxmlformats.org/package/2006/metadata/core-properties"><dc:creator>Microsoft</dc:creator><dc:description>Provides the System.ServiceProcess.ServiceContainer class, which allows you to connect to a running or stopped service, manipulate it, or get information about it.
+
+Commonly Used Types:
+System.ServiceProcess.ServiceController
+System.ServiceProcess.ServiceControllerStatus
+System.ServiceProcess.ServiceType
+ - 1548494</dc:description><dc:identifier>System.ServiceProcess.ServiceController</dc:identifier><version>4.1.0-beta-23516</version><keywords /><dc:title>System.ServiceProcess.ServiceController</dc:title><lastModifiedBy>NuGet.Core, Version=2.8.60610.85, Culture=neutral, PublicKeyToken=31bf3856ad364e35;Microsoft Windows NT 6.3.9600.0;.NET Framework 4 Client Profile</lastModifiedBy></coreProperties>

@@ -1,0 +1,47 @@
+{
+    "version": "1.0.0-*",
+    "description": "ClientConsole Console Application",
+    "authors": [
+        "Simon"
+    ],
+    "tags": [
+        ""
+    ],
+    "projectUrl": "",
+    "licenseUrl": "",
+
+    "compilationOptions": {
+        "emitEntryPoint": true
+    },
+
+    "dependencies": {
+    },
+
+    "commands": {
+        "ClientConsole": "ClientConsole"
+    },
+
+    "frameworks": {
+        "dnx451": {
+            "dependencies": {
+                "MSCOMCTL": "1.0.0-*",
+                "mscorlib": "1.0.0-*",
+                "System.Threading": "1.0.0-*",
+                "System.Threading.Tasks": "1.0.0-*"
+            }
+        },
+        "dnxcore50": {
+            "dependencies": {
+                "Microsoft.CSharp": "4.0.1-beta-23516",
+                "System.Collections": "4.0.11-beta-23516",
+                "System.Console": "4.0.0-beta-23516",
+                "System.Linq": "1.0.0-*",
+                "System.Threading": "1.0.0-*",
+                "System.Net.WebSockets.Client": "4.0.0-beta-23516",
+                "System.Web.Cors": "1.0.0-*",
+                "mscorlib": "1.0.0-*",
+                "System.Threading.Tasks": "1.0.0-*"
+            }
+        }
+    }
+}

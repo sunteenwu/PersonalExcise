@@ -1,0 +1,16 @@
+D:\Customer's\CWinJS\CWinJS\bin\x86\Debug\ReverseMap\resources.pri
+D:\Customer's\CWinJS\CWinJS\bin\x86\Debug\AppxManifest.xml
+D:\Customer's\CWinJS\CWinJS\bin\x86\Debug\CWinJS.build.appxrecipe
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\ResourceHandlingTask.state
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\priconfig.xml
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\priconfig.xml.intermediate
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\layout.resfiles
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\layout.resfiles.intermediate
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\resources.resfiles
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\resources.resfiles.intermediate
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\pri.resfiles
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\pri.resfiles.intermediate
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\qualifiers.txt
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\qualifiers.txt.intermediate
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+D:\Customer's\CWinJS\CWinJS\bld\x86\Debug\ProjectArchitectures.txt

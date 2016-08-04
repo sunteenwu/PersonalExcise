@@ -1,0 +1,37 @@
+﻿<Page x:Class="CZoom.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:CZoom"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Padding="50">
+        <Image x:Name="imgshow"
+               Width="100"
+               Height="100"
+               ManipulationDelta="gridviewzoom_ManipulationDelta"
+               ManipulationMode="All"
+               ManipulationStarted="gridviewzoom_ManipulationStarted"
+               ManipulationStarting="gridviewzoom_ManipulationStarting"
+               Source="Assets\cafee2.jpg" />
+        <GridView x:Name="gridviewzoom"
+                  ManipulationMode="All"
+                  ManipulationStarting="gridviewzoom_ManipulationStarting"
+                  PointerWheelChanged="gridviewzoom_PointerWheelChanged">
+            <GridView.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel>
+
+                        <Image Width="{Binding imgwidth}"
+                               Height="{Binding imgheight}"
+                               ManipulationStarted="gridviewzoom_ManipulationStarted"
+                               Source="{Binding imageurl}" />
+                        <TextBlock x:Name="txtname" Text="{Binding imagename}" />
+                    </StackPanel>
+                </DataTemplate>
+            </GridView.ItemTemplate>
+        </GridView>
+
+    </StackPanel>
+</Page>

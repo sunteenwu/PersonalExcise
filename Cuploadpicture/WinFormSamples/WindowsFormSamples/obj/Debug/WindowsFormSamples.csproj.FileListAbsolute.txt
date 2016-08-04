@@ -1,0 +1,13 @@
+D:\MyWorkSpace@chenlin\AdSage\MyProjects\MyDevProjects\StudySamples\WindowsFormSamples\bin\Debug\WindowsFormSamples.exe.config
+D:\MyWorkSpace@chenlin\AdSage\MyProjects\MyDevProjects\StudySamples\WindowsFormSamples\bin\Debug\WindowsFormSamples.exe
+D:\MyWorkSpace@chenlin\AdSage\MyProjects\MyDevProjects\StudySamples\WindowsFormSamples\bin\Debug\WindowsFormSamples.pdb
+D:\MyWorkSpace@chenlin\AdSage\MyProjects\MyDevProjects\StudySamples\WindowsFormSamples\obj\Debug\WindowsFormSamples.csprojResolveAssemblyReference.cache
+D:\MyWorkSpace@chenlin\AdSage\MyProjects\MyDevProjects\StudySamples\WindowsFormSamples\obj\Debug\WindowsFormSamples.Form1.resources
+D:\MyWorkSpace@chenlin\AdSage\MyProjects\MyDevProjects\StudySamples\WindowsFormSamples\obj\Debug\WindowsFormSamples.Properties.Resources.resources
+D:\MyWorkSpace@chenlin\AdSage\MyProjects\MyDevProjects\StudySamples\WindowsFormSamples\obj\Debug\WindowsFormSamples.csproj.GenerateResource.Cache
+D:\MyWorkSpace@chenlin\AdSage\MyProjects\MyDevProjects\StudySamples\WindowsFormSamples\obj\Debug\WindowsFormSamples.exe
+D:\MyWorkSpace@chenlin\AdSage\MyProjects\MyDevProjects\StudySamples\WindowsFormSamples\obj\Debug\WindowsFormSamples.pdb
+D:\Customer's\Cuploadpicture\WinFormSamples\WindowsFormSamples\bin\Debug\WindowsFormSamples.exe.config
+D:\Customer's\Cuploadpicture\WinFormSamples\WindowsFormSamples\obj\Debug\WindowsFormSamples.exe
+D:\Customer's\Cuploadpicture\WinFormSamples\WindowsFormSamples\obj\Debug\WindowsFormSamples.pdb
+D:\Customer's\Cuploadpicture\WinFormSamples\WindowsFormSamples\obj\Debug\WindowsFormSamples.csprojResolveAssemblyReference.cache

@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>V-XUNWU</Machine>
+    <WindowsUser>v-xunwu</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>14851259-e205-4d66-9935-351a6026b2ed</PackageIdentityName>
+    <IntermediateOutputPath>D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\obj\Debug\</IntermediateOutputPath>
+    <RegisteredManifestChecksum>A581E6197613765B17F54D00F8EE9251756F420719BED8A443C43340DD08B86B</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>14851259-e205-4d66-9935-351a6026b2ed_1.1.0.0_neutral__tbz3402trp7yy</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>14851259-e205-4d66-9935-351a6026b2ed_tbz3402trp7yy!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>14851259-e205-4d66-9935-351a6026b2ed</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Dave</RegisteredPackagePublisher>
+    <RegisteredVersion>1.1.0.0</RegisteredVersion>
+    <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T09:14:21.439</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\HtmlRtfDemo.exe">
+      <PackagePath>HtmlRtfDemo.exe</PackagePath>
+      <Modified>2016-04-28T09:14:20.987</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T09:11:37.603</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T09:11:37.609</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T09:11:37.616</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2016-04-28T09:11:37.623</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\HtmlRtfDemo.xr.xml">
+      <PackagePath>HtmlRtfDemo.xr.xml</PackagePath>
+      <Modified>2016-04-28T09:14:20.652</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2016-04-28T09:14:20.842</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2016-04-28T09:14:20.845</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2016-04-28T09:14:20.848</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Customer%27s\DownLoad\Html to RTF\C#\HtmlRtfDemo\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2016-04-28T09:14:21.113</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

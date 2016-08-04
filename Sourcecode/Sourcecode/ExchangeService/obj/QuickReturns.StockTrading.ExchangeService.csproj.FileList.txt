@@ -1,0 +1,5 @@
+bin\Debug\ExchangeService.dll
+bin\Debug\ExchangeService.pdb
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\ExchangeService.dll
+obj\Debug\ExchangeService.pdb

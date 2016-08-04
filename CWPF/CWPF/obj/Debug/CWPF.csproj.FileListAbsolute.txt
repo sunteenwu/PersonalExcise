@@ -1,0 +1,14 @@
+D:\Customer's\CWPF\CWPF\bin\Debug\CWPF.exe.config
+D:\Customer's\CWPF\CWPF\bin\Debug\CWPF.exe
+D:\Customer's\CWPF\CWPF\bin\Debug\CWPF.pdb
+D:\Customer's\CWPF\CWPF\obj\Debug\CWPF.csprojResolveAssemblyReference.cache
+D:\Customer's\CWPF\CWPF\obj\Debug\MainWindow.g.cs
+D:\Customer's\CWPF\CWPF\obj\Debug\App.g.cs
+D:\Customer's\CWPF\CWPF\obj\Debug\CWPF_MarkupCompile.cache
+D:\Customer's\CWPF\CWPF\obj\Debug\CWPF_MarkupCompile.lref
+D:\Customer's\CWPF\CWPF\obj\Debug\MainWindow.baml
+D:\Customer's\CWPF\CWPF\obj\Debug\CWPF.g.resources
+D:\Customer's\CWPF\CWPF\obj\Debug\CWPF.Properties.Resources.resources
+D:\Customer's\CWPF\CWPF\obj\Debug\CWPF.csproj.GenerateResource.Cache
+D:\Customer's\CWPF\CWPF\obj\Debug\CWPF.exe
+D:\Customer's\CWPF\CWPF\obj\Debug\CWPF.pdb

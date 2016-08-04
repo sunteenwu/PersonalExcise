@@ -1,0 +1,12 @@
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\VBSelectionItem.vbprojResolveAssemblyReference.cache
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\App.g.i.vb
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\App.g.vb
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\MainPage.g.i.vb
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\MainPage.g.vb
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\XamlTypeInfo.g.vb
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\App.xaml
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\MainPage.xaml
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\App.xbf
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\MainPage.xbf
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\XamlSaveStateFile.xml
+D:\Customer's\Selection of items\VBSelectionItem\obj\x86\Debug\VBSelectionItem.xml

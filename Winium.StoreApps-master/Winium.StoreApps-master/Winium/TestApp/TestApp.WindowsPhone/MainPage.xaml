@@ -1,0 +1,78 @@
+﻿<Page
+    x:Class="TestApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:testApp="using:TestApp"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}"
+    Loaded="MainPageOnLoaded">
+    <Pivot Title="MY APPLICATION" AutomationProperties.AutomationId="MainPivot" x:Name="Pivot">
+
+        <!--Pivot item one-->
+        <PivotItem Header="first" AutomationProperties.AutomationId="FirstTab">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="100"/>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="0"/>
+                </Grid.RowDefinitions>
+
+                <TextBox Name="TextBox" Grid.Row="0" Width="300" Height="100"
+                         AcceptsReturn="True"
+                         VerticalAlignment="Center"
+                         AutomationProperties.AutomationId="MyTextBox" AutomationProperties.Name="NonUniqueName"/>
+                <Button Content="Set 'CARAMBA' text to TextBox" Grid.Row="1" 
+                        HorizontalAlignment="Center" Click="SetButtonOnClick"
+                        AutomationProperties.AutomationId="SetButton" AutomationProperties.Name="NonUniqueName"/>
+                <ListBox Name="ListBox" Height="200" Grid.Row="2" Width="300"
+                         AutomationProperties.AutomationId="MyListBox"/>
+                <testApp:TestUserControl Grid.Row="3"
+                                         Height="0"
+                                         AutomationProperties.AutomationId="UserCtrl"/>
+            </Grid>
+        </PivotItem>
+        <PivotItem Header="second" AutomationProperties.AutomationId="SecondTab">
+            <StackPanel Orientation="Vertical">
+            <TextBox
+                x:Name="SecondTabTextBox"
+                Text ="Nice swipe!"
+                AutomationProperties.AutomationId="SecondTabTextBox" />
+            <AutoSuggestBox x:Name="Suggestions"
+                AutomationProperties.AutomationId ="MySuggestBox"
+                ItemsSource="{Binding }"
+                TextChanged="SuggestionsTextChanged" 
+                SuggestionChosen="SuggestionsSuggestionChosen"></AutoSuggestBox>
+                <PasswordBox AutomationProperties.AutomationId="MyPasswordBox" PlaceholderText="Password"/>
+                <Button Content="Show Msg" 
+                        Click="ButtonClick"
+                        AutomationProperties.AutomationId="MsgBtn" />
+                <Button Content="Disabled" 
+                        IsEnabled="False"
+                        AutomationProperties.AutomationId="DisabledBtn" />
+            </StackPanel>
+        </PivotItem>
+    </Pivot>
+    <Page.BottomAppBar>
+        <CommandBar AutomationProperties.AutomationId="BottomAppBar" Opened="AppBarOnOpened" Closed="AppBarOnClosed">
+            <CommandBar.PrimaryCommands>
+                <AppBarButton Icon="Go" IsCompact="True"
+                              Click="GoAppBarButtonOnClick"
+                              AutomationProperties.AutomationId="GoAppBarButton"/>
+            </CommandBar.PrimaryCommands>
+
+            <CommandBar.SecondaryCommands>
+                <AppBarButton Label="First button"
+                              Click="FirstAppBarButtonOnClick"
+                              AutomationProperties.AutomationId="FirstAppBarButton"/>
+                <AppBarButton Label="Second button"
+                              Click="SecondAppBarButtonOnClick"
+                              AutomationProperties.AutomationId="SecondAppBarButton"/>
+                <AppBarToggleButton Label="Toggle button"
+                                    AutomationProperties.AutomationId="FirstToggleAppBarButton"/>
+            </CommandBar.SecondaryCommands>
+        </CommandBar>
+    </Page.BottomAppBar>
+</Page>

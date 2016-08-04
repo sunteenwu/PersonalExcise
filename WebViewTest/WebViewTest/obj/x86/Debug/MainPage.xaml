@@ -1,0 +1,33 @@
+﻿<Page x:Class="WebViewTest.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:local="using:WebViewTest"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+ <!-- <ScrollViewer x:Name="rootScroll"
+                  VerticalScrollBarVisibility="Auto" VerticalScrollMode="Auto"
+                  HorizontalScrollBarVisibility="Auto" HorizontalScrollMode="Auto"
+                  Margin="10"
+                  Background="#F2F2F2">-->
+        <Grid x:ConnectionId='1' x:Name="rootGrid"
+              Background="Transparent">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition MinWidth="400"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Border Background="Red">
+                <Button x:ConnectionId='3' Content="Go to other page"
+                        FontSize="24"
+                        Foreground="Black"
+                                            />
+            </Border>
+            <WebView x:ConnectionId='2' x:Name="inAppRoot" 
+                     Grid.Column="1" 
+                     Width="1960"
+                     Source="http://microsoft.com"
+                     DefaultBackgroundColor="White"/>
+        </Grid>
+    <!--</ScrollViewer>-->
+</Page>
+

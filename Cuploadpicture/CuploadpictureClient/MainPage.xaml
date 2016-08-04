@@ -1,0 +1,40 @@
+﻿<Page x:Class="CuploadpictureClient.MainPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="using:CuploadpictureClient"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      mc:Ignorable="d">
+
+    <StackPanel Margin="0,0,-321,0" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel x:Name="ContentPanel"
+                    Width="500"
+                    Height="300">
+            <Image Name="Image"
+                   Grid.Row="1"
+                   Source="/Assets/HelloWorld.png" />
+            <Button x:Name="BtnResizeSave"
+                    Click="BtnResizeSave_Click"
+                    Content="resizesave" />
+            <Button x:Name="BtnGetDpi"
+                    Click="BtnGetDpi_Click"
+                    Content="GetDpi" />
+        </StackPanel>
+        <Image x:Name="imgbit"
+               Width="150"
+               Height="150" />
+        <Image x:Name="imgshow"
+               Width="200"
+               Height="200"
+               Margin="50" />
+        <Button x:Name="connectsql"
+                Click="connectsql_Click"
+                Content="connect sql" />
+        <Button x:Name="Convert"
+                Click="Convert_Click"
+                Content="Convert" />
+
+
+    </StackPanel>
+
+</Page>

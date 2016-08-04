@@ -1,0 +1,9 @@
+D:\Customer's\Src_WcfServiceSample\WcfClient\bin\Debug\WcfClient.exe.config
+D:\Customer's\Src_WcfServiceSample\WcfClient\bin\Debug\WcfClient.exe
+D:\Customer's\Src_WcfServiceSample\WcfClient\bin\Debug\WcfClient.pdb
+D:\Customer's\Src_WcfServiceSample\WcfClient\obj\x86\Debug\WcfClient.csprojResolveAssemblyReference.cache
+D:\Customer's\Src_WcfServiceSample\WcfClient\obj\x86\Debug\WcfClient.Form1.resources
+D:\Customer's\Src_WcfServiceSample\WcfClient\obj\x86\Debug\WcfClient.Properties.Resources.resources
+D:\Customer's\Src_WcfServiceSample\WcfClient\obj\x86\Debug\WcfClient.csproj.GenerateResource.Cache
+D:\Customer's\Src_WcfServiceSample\WcfClient\obj\x86\Debug\WcfClient.exe
+D:\Customer's\Src_WcfServiceSample\WcfClient\obj\x86\Debug\WcfClient.pdb

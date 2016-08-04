@@ -1,0 +1,63 @@
+﻿<Page
+    x:Class="DataBinding_and_Layout_Update_Question.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DataBinding_and_Layout_Update_Question"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}" Margin="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250" />
+            <ColumnDefinition Width="150" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="BtnUpdate" Click="BtnUpdate_Click" Content="update data"></Button>
+        <ListView Grid.Row="1" x:Name="WalletAddressList">
+            <ListView.Header>
+                <Grid HorizontalAlignment="Stretch">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="0" TextAlignment="Center" FontWeight="Bold">Address</TextBlock>
+                    <TextBlock Grid.Column="1" TextAlignment="Right" FontWeight="Bold">Amount</TextBlock>
+                </Grid>
+            </ListView.Header>
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="HorizontalContentAlignment" Value="Stretch"/>
+                    <Setter Property="Padding" Value="0"/>
+                    <Setter Property="Margin" Value="0,-5,0,-5"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <Grid x:Name="WalletAddress" HorizontalAlignment="Stretch" Holding="WalletAddress_Holding">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <FlyoutBase.AttachedFlyout>
+                            <MenuFlyout>
+                                <MenuFlyoutItem x:Name="FlyoutButtonRemove" Text="Remove" Click="FlyoutButtonRemove_Click" />
+                                <MenuFlyoutItem x:Name="FlyoutButtonShowQR" Text="Show QR" Click="FlyoutButtonShowAddressAsQR_Click" />
+                            </MenuFlyout>
+                        </FlyoutBase.AttachedFlyout>
+                        <TextBlock Grid.Column="0" Text="{Binding address}" Margin="0,0,10,0" TextTrimming="CharacterEllipsis" />
+                        <TextBlock Grid.Column="1" Text="{Binding value}" TextAlignment="Right" />
+                    </Grid>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <StackPanel x:Name="WalletValue" Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Right" BorderBrush="Black" BorderThickness="0,1,0,0">
+            <TextBlock Text="{Binding value}" />
+            <TextBlock Margin="10,0,0,0">value</TextBlock>
+        </StackPanel>
+    </Grid>
+</Page>

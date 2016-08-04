@@ -1,0 +1,7 @@
+D:\Customer's\Src_WcfServiceSample\WcfServiceLibrary1\bin\Debug\SampleDB.xml
+D:\Customer's\Src_WcfServiceSample\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll.config
+D:\Customer's\Src_WcfServiceSample\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.dll
+D:\Customer's\Src_WcfServiceSample\WcfServiceLibrary1\bin\Debug\WcfServiceLibrary1.pdb
+D:\Customer's\Src_WcfServiceSample\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.dll
+D:\Customer's\Src_WcfServiceSample\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.pdb
+D:\Customer's\Src_WcfServiceSample\WcfServiceLibrary1\obj\Debug\WcfServiceLibrary1.csprojResolveAssemblyReference.cache

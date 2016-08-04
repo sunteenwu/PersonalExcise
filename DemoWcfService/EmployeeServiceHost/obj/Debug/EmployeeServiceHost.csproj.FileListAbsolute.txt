@@ -1,0 +1,1 @@
+D:\Customer's\DemoWcfService\EmployeeServiceHost\bin\Debug\EmployeeServiceHost.exe.config
